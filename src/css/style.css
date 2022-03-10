@@ -266,6 +266,7 @@ body {
 }
 
 .button {
+	cursor: pointer;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -323,4 +324,70 @@ body {
 .button {
 }
 .btn-first {
+}
+
+/* about us ------------------------------------ */
+
+.section__about-us {
+}
+.container {
+}
+.wrapper__aboutus {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+.aboutus__text-content {
+}
+.title-aboutus {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 80px;
+}
+.about__text {
+	margin: 0px 0px 0px 0px;
+	margin-bottom: 38px;
+	
+	max-width: 635px;
+	max-height: 181px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8f95a5;
+}
+
+.about__staic {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 82px;
+}
+.static__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.static__number {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 80px;
+}
+.static__text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8f95a5;
+}
+.aboutus__wrapper-img {
+	max-width: 500px;
+	max-height: 500px;
+}
+.about__img {
+	max-width: 100%;
 }
