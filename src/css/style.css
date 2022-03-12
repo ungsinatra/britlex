@@ -135,7 +135,14 @@ body {
 	line-height: 54px;
 	border-radius: 15px;
 }
+.button:hover{
+	/* border: 1px solid  black; */
+	transition: all 0.4s;
+	background-color: rgb(255, 255, 255);
+	color: black;
+	
 
+}
 /* skills */
 .section__skills {
 }
@@ -266,6 +273,7 @@ body {
 }
 
 .button {
+	padding: 0;
 	cursor: pointer;
 	font-style: normal;
 	font-weight: 500;
@@ -450,6 +458,7 @@ body {
 	color: #8f95a5;
 }
 .column__price {
+	cursor: pointer;
 	padding: 0 18px;
 	text-align: center;
 	border-radius: 5px;
@@ -463,6 +472,11 @@ body {
 	/* identical to box height */
 
 	color: #263238;
+}
+.column__price:hover{
+	transition: all 0.4s;
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
 }
 .column__price span {
 	font-style: normal;
@@ -480,6 +494,7 @@ body {
 .container {
 }
 .contact__items {
+	margin-bottom: 50px;
 	min-width: 100%;
 	max-height: 430px;
 	/* background-color: red; */
@@ -494,7 +509,7 @@ body {
 }
 .contact-us__title {
 	margin: 0px 0px 0px 0px;
-	
+
 	font-style: normal;
 	font-weight: 600;
 	font-size: 48px;
@@ -516,7 +531,7 @@ body {
 .contact__form {
 	display: flex;
 	flex-direction: row;
-	gap: 14px	;
+	gap: 14px;
 }
 .input {
 	outline: none;
@@ -548,12 +563,67 @@ body {
 	box-sizing: border-box;
 	border-radius: 10px;
 }
+.form__bnt:hover{
+	transition: all 0.4s;
+	background-color: #fff;
+	color: black;
+	border:1px solid #8F95A5 ;
+}
 .contact-img {
 	width: 450px;
 	height: 450px;
-}	
+}
 .img {
 	object-fit: contain;
 	width: 100%;
 	height: 100%;
+}
+
+/* foter-------------------------------------------- */
+.footer {
+}
+.container {
+}
+.footer__content {
+	border-top: 1px solid #c4c4c4;
+	padding-top: 32px;
+	padding-bottom: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.img__content {
+}
+.header__logo {
+}
+.footer__list {
+	padding: 0;
+	margin: 0px 0px 0px 0px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer__list a {
+	
+	
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	text-decoration: none;
+	/* identical to box height */
+	margin-left: 25px;
+	color: #8f95a5;
+}
+
+.footer__list a:first-child {
+	margin-left: 0px;
+
+}
+.footer__list a:hover{
+	color: black;
+	transition: all 0.5s;
+	border-bottom: 3px solid#263238;
 }
